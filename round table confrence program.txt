@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+       int n,c,f=1;
+         scanf("%d",&n); 
+        for(c=1;c<=n;c++)
+            {
+              f=f*c;
+            }
+              printf("%d",f/2);
+            
+    return 0;
+}
